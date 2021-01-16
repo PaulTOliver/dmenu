@@ -10,8 +10,8 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 static const char *colors[SchemeLast][2] = {
 	/*               fg         bg       */
 	[SchemeNorm] = { "#eaeaea", "#000000" },
-	[SchemeSel]  = { "#0087d7", "#eaeaea" },
-	[SchemeOut]  = { "#0087d7", "#eaeaea" },
+	[SchemeSel]  = { "#005faf", "#eaeaea" },
+	[SchemeOut]  = { "#005faf", "#eaeaea" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
